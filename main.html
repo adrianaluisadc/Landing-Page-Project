@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lipstation</title>
+    <link href="css/reset.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <img id="header-img" src=""/>
+        <div id="nav-links">
+          <div class="nav-link-container">
+            <a href="#bestselling-container" class="nav-link"></a>
+          </div>
+          <div class="nav-link-container">
+            <a href="#promotion-container" class="nav-link"></a>
+          </div>
+
+          <div class="nav-link-container">
+            <a href="#discount-area-container" class="nav-link"></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="bestselling-container"></div>
+    <div id="promotion-container">
+      <video id="video" src=""></video>
+    </div>
+    <div id="company-asset-container"></div>
+    <div id="discount-area-container">
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <input type="email" name="email" id="email" placeholder="Type your email address" />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
