@@ -5,25 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lipstation</title>
-    <link href="css/reset.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
   </head>
   <body>
     <header id="header">
-      <nav id="nav-bar">
-        <img id="header-img" src=""/>
-        <div id="nav-links">
-          <div class="nav-link-container">
-            <a href="#bestselling-container" class="nav-link"></a>
+      <div id="nav-bar-container">
+        <nav role="navigation" id="nav-bar">
+          <!-- to use the :checked  -->
+         
+          <div id="hamburger-container">
+            <div id="hamburger">
+              <input type="checkbox" id="for-checked" />
+              <!-- to have hamburger icon -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
-          <div class="nav-link-container">
-            <a href="#promotion-container" class="nav-link"></a>
+         
+          <div id="logo-container">
+            <img
+              id="header-img"
+              src="media/images/lipstations-logo.svg"
+              alt="Lipstation Website Logo"
+            />
           </div>
+          <div id="nav-links">
+            <div class="nav-link-container">
+              <a href="#bestselling-container" class="nav-link"
+                >BEST SELLING PRODUCTS
+              </a>
+            </div>
+            <div class="nav-link-container">
+              <a href="#promotion-container" class="nav-link">WHY LIPSTATION?</a>
+            </div>
 
-          <div class="nav-link-container">
-            <a href="#discount-area-container" class="nav-link"></a>
+            <div class="nav-link-container">
+              <a href="#discount-area-container" class="nav-link">OUR LEGACY</a>
+            </div>
+            <div class="nav-link-container">
+              <a href="#" class="nav-link">CLAIM DISCOUNTS</a>
+            </div>
+            <div class="nav-link-container">
+              <a href="#" class="nav-link">COSTUMER SERVICE</a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <div id="bestselling-container"></div>
     <div id="promotion-container">
@@ -36,11 +65,16 @@
         action="https://www.freecodecamp.com/email-submit"
         method="post"
       >
-        <input type="email" name="email" id="email" placeholder="Type your email address" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Type your email address"
+        />
         <input type="submit" id="submit" />
       </form>
     </div>
 
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
   </body>
 </html>
