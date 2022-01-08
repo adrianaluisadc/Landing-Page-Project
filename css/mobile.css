@@ -116,7 +116,6 @@
   width: 100%;
 }
 #background {
-  overflow: hidden;
   background: var(--mainLRed);
   width: 100%;
   height: 100vh;
@@ -182,4 +181,74 @@
   padding-left: 1.2em;
   position:relative;
   bottom: 11px;
+}
+
+
+/* -----BEST SELLING AREA -------- */
+
+#bestselling-container {
+  width: 100%;
+  overflow: hidden;
+  background: var(--dirtyWhite);
+  font-family: var(--osw);
+}
+
+#bestselling-label-container {
+  width: 100%;
+}
+
+#bestselling-label {
+  width: 100%;
+  padding: .7em;
+}
+
+#bestselling-label h2{
+  color: var(--mainDarkRed);
+  font-size: 1.9em;
+  text-align: center;
+  font-weight: 400;
+}
+
+#products-container {
+  
+  width: 100%;
+}
+
+#products {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#product1, #product2, #product3, #product4, #product5, #product6 {
+ width:50%;
+ margin-bottom: 10px;
+ text-align: center;
+}
+
+#products img {
+  width: 155px; 
+}
+
+
+.productdetail-container{
+  display: flex;
+  flex: wrap;
+  width: 100%;
+  padding: 0 1em 0 1em;
+}
+
+.productdetail-container p {
+  
+  font-size: .6em;
+  
+}
+.productdetail-container p:first-child{
+  text-align: left;
+  width: 70%;
+}
+.productdetail-container p:last-child{
+  text-align: right;
+  width: 30%;
 }
