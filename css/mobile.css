@@ -187,6 +187,8 @@
 /* -----BEST SELLING AREA -------- */
 
 #bestselling-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
   width: 100%;
   overflow: hidden;
   background: var(--dirtyWhite);
@@ -194,6 +196,7 @@
 }
 
 #bestselling-label-container {
+  
   width: 100%;
 }
 
