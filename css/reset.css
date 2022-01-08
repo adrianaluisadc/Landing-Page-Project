@@ -1,10 +1,12 @@
 /* ----COLOR PALETTE------
  #941117 - main dark red 
- #EEEEEE - dirty white*/
+ #EEEEEE - dirty white
+ #B7272F - main light red*/
+
 
 /* ----FONTS IMPORTATIONS ---- */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
 
 * {
     margin: 0;
@@ -13,8 +15,10 @@
 }
 
 :root {
-    --mainDarkRed: #941117;
-    --dw: #EEEEEE ;
+    --mainDarkRed: #941117; 
+    --dirtyWhite: #eeee ;
+    --mainLRed: #B7272F;
     --osw: 'Oswald', sans-serif;
+    --sixcaps:'Six Caps', sans-serif;
 }
 
