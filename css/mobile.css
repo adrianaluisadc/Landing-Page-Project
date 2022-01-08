@@ -10,11 +10,6 @@
   z-index: 1;
 }
 
-#nav-bar {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 #hamburger input[type="checkbox"] {
   opacity: 0;
   width: 40px;
@@ -25,14 +20,22 @@
 }
 
 #hamburger-container {
-  width: 50%;
+  width: 100%;
+  
 }
 
 #hamburger {
-  display: inline-block;
-  padding: 10px 0 0 3%;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
-#hamburger span {
+
+#span {
+  width: 50%;
+  display: inline-block;
+  padding: 10px 0 3px 10px;
+}
+#span span {
   background: var(--dw);
   display: block;
   margin-bottom: 8px;
@@ -41,39 +44,43 @@
   position: relative;
   border-radius: 2px;
   z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transform-origin: 4px 2px;
+  transition: transform 0.5s;
 }
 
-#hamburger span:first-child {
-  transform-origin: 0% 0%;
+#hamburger input[type="checkbox"]:checked ~ #span span {
+  opacity: 1;
 }
 
-#hamburger span:nth-last-child(2) {
-  transform-origin: 0% 100%;
-}
-
-#hamburger input[type="checkbox"]:checked ~ span {
+#hamburger input[type="checkbox"]:checked ~ #span span:nth-last-child(3)
+{
   opacity: 1;
   transform: rotate(45deg);
+  
 }
 
-#hamburger input[type="checkbox"]:checked ~ span:nth-last-child(2)
+#hamburger input[type="checkbox"]:checked ~ #span span:nth-last-child(2)
 {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  opacity: 1;
+  transform: rotate(-5deg) scale(0);
 }
 
-#hamburger input[type="checkbox"]:checked ~ span:nth-last-child(1)
+#hamburger input[type="checkbox"]:checked ~ #span span:nth-last-child(1)
 {
-    transform: rotate(-45deg);
+  opacity: 1;
+  transform: rotate(-45deg);
+  
+}
+
+#hamburger input[type="checkbox"]:checked ~ #nav-links {
+  display: block;
 }
 /* ---------------- */
 
 #logo-container {
+  display: inline-block;
   width: 50%;
-  padding: 5px 0 0 10%;
+  padding: 5px 0 0px 9%;
 }
 
 #header-img {
@@ -81,21 +88,23 @@
   display: inline-block;
 }
 
-.nav-link-container {
-  padding: 0 0 0.4em 0;
-}
+
 #nav-links {
+  flex: none;
   width: 100%;
-  text-align: center;
+  margin: auto;
   font-size: 1.1em;
+  display:  none;
 }
 
 #nav-links a {
+  text-align: center;
   text-decoration: none;
   color: #eeeeee;
   font-family: var(--osw);
   font-weight: 200;
   background-color: #9411187a;
+  display: block;
 }
 
 #nav-links a:hover {
