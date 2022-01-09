@@ -364,7 +364,99 @@
   margin-bottom:0;
 }
 
+/* -----DISCOUNT AND COUPON AREA---- */
+#discount-container {
+  overflow: hidden;
+  width: 100%;
+  background: var(--mainLRed);
+}
 
+.promocontainer img {
+  width: 100%;
+}
+
+#claiming-container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  text-align: center;
+  font-family: var(--osw);
+  margin: auto;
+}
+
+#claimdescription {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+#claimtitle {
+  width:80%;
+  margin: auto;
+}
+
+#claimdescription h3 {
+  color: var(--dirtyWhite);
+  font-weight: 300;
+  font-size: 1.8em;
+  line-height: 1.08em;
+  letter-spacing: -.03em;
+  margin-bottom: 10px;
+}
+
+#claimparagraph {
+  width: 100%;
+}
+
+#claimdescription p {
+  color: var(--dirtyWhite);
+  font-weight: 200;
+  font-size: 1.15em;
+  line-height: 1.08em;
+  letter-spacing: -.03em;
+}
+
+#claiming-form {
+  width: 100%;
+}
+
+#form label{
+  display: block;
+  text-align: left;
+  color: var(--dirtyWhite);
+  font-weight: 200;
+  font-size: 1.2em;
+  letter-spacing: -.03em;
+  margin-bottom: 5px;
+}
+
+input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: .7em .75em .7em .75em;
+  border: none;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+input[type="email"]::placeholder {
+  font-family: var(--osw);
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: -.03em;
+  color: #000;
+}
+
+input[type="submit"] {
+  background: #ED512E;
+  color: var(--dirtyWhite);
+  font-family: var(--osw);
+  font-weight: 300;
+  font-size: 1.1em;
+  border: none;
+  padding: .2em 1.3em .2em 1.3em;
+}
 
 
 
