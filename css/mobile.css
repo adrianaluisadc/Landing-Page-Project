@@ -93,11 +93,10 @@
 #nav-links {
   flex: none;
   width: 100%;
-  margin: auto;
+  line-height: 2.2em;
   font-size: 1.1em;
   display: none;
   background: #b7272e6b;
-  padding: 5px;
 }
 
 #nav-links a {
@@ -117,12 +116,12 @@
 
 #background-container {
   width: 100%;
+  position: relative;
 }
 #background {
-  background: var(--mainLRed);
   width: 100%;
-  height: 640px;
-  position: relative;
+  height: 630px;
+  background: var(--mainLRed);
 }
 
 #background::after {
@@ -132,7 +131,7 @@
   background-color: var(--dirtyWhite);
   clip-path: polygon(0 30%, 100% 1%, 100% 100%, 0 43%);
   width: 100%;
-  height: 640px;
+  height: 550px;
   z-index: 1;
 }
 
@@ -143,8 +142,8 @@
 #saletag-img {
   margin: 70px auto 0 auto;
   position: absolute;
-  max-width: 320px;
-  z-index: 3;
+  max-width: 100%;
+  z-index: 1;
 }
 
 #header-text-container {
@@ -157,12 +156,14 @@
   overflow: hidden;
   position: absolute;
   top: 412px;
+  z-index: 2;
 }
 
 #header-text h1 {
   font-family: var(--osw);
   font-weight: 400;
   font-size: 3.2em;
+  text-shadow: 4px 4px 4px rgba(49, 49, 49, 0.63);
   color: var(--dirtyWhite);
 }
 

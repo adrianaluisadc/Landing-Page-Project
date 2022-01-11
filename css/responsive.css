@@ -1,0 +1,24 @@
+@media only screen and (min-width: 481px) {
+    #saletag-img  {
+        width: 380px;
+        left: 20%;
+    }
+    
+    #header-text {
+        width: 280px;
+        top: 340px;
+    }
+    
+    #header-text h1 {
+        font-size: 4em;
+    }
+
+    #header-text span {
+  font-size: 2.7em;
+    }
+
+    #promotion-text {
+  height: 70vh;
+
+    }
+}
