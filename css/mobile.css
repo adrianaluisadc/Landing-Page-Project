@@ -9,6 +9,7 @@
   position: fixed;
   overflow: hidden;
   z-index: 4;
+  
 }
 
 #hamburger input[type="checkbox"] {
@@ -22,18 +23,20 @@
 
 #hamburger-container {
   width: 100%;
+  padding: 0 10px;
 }
 
 #hamburger {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  
 }
 
 #span {
   width: 50%;
   display: inline-block;
-  padding: 10px 0 3px 10px;
+  padding-top: 12px;
 }
 #span span {
   background: var(--dirtyWhite);
@@ -78,7 +81,8 @@
 #logo-container {
   display: inline-block;
   width: 50%;
-  padding: 5px 1% 0px 9%;
+  text-align: right;
+  padding-top: 10px;
 }
 
 #header-img {
@@ -137,7 +141,7 @@
 }
 
 #saletag-img {
-  margin: 70px 12px 0 15px;
+  margin: 70px auto 0 auto;
   position: absolute;
   max-width: 320px;
   z-index: 3;
