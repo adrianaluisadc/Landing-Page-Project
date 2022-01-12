@@ -255,4 +255,22 @@
 #header-text p {
   font-size: 2em;
 }
+
+  /* -----BEST SELLING AREA -------- */
+  #product1,
+  #product2,
+  #product3,
+  #product4,
+  #product5,
+  #product6 {
+    width: 16.66%;
+  }
+
+  /* ---- PROMOTION CONTAINER AREA ------ */
+  #promotion-text h3 {
+    font-size: 1.2em;
+
+  }
+
+
 }
