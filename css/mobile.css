@@ -266,11 +266,11 @@
   padding-top: 48px;
   width: 100%;
   overflow: hidden;
+  margin:0 auto;
   background: var(--mainLRed);
 }
 
 #video-container {
-  padding: 1em 1em 1em 1em;
   width: 100%;
   text-align: center;
 }

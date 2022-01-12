@@ -1,24 +1,186 @@
 @media only screen and (min-width: 481px) {
-    #saletag-img  {
-        width: 380px;
-        left: 20%;
-    }
-    
-    #header-text {
-        width: 280px;
-        top: 340px;
-    }
-    
-    #header-text h1 {
-        font-size: 4em;
-    }
+  #saletag-img {
+    width: 380px;
+    left: 20%;
+  }
 
-    #header-text span {
-  font-size: 2.7em;
-    }
+  #header-text {
+    width: 280px;
+    top: 340px;
+  }
 
-    #promotion-text {
-  height: 70vh;
+  #header-text h1 {
+    font-size: 4em;
+  }
 
-    }
+  #header-text span {
+    font-size: 2.7em;
+  }
+
+  #promotion-text {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #background {
+    height: 530px;
+  }
+  #background::after {
+    height: 425px;
+  }
+  #saletag-img {
+    width: 380px;
+    left: 45%;
+  }
+
+  #header-text {
+    margin-left: 40px;
+    top: 200px;
+  }
+  #header-text p {
+    padding-left: 3em;
+  }
+
+  /* -----BEST SELLING AREA -------- */
+
+  #bestselling-label h2 {
+    font-size: 2.5em;
+  }
+
+  #product1,
+  #product2,
+  #product3 {
+    width: 33.33%;
+  }
+
+  #product4,
+  #product5,
+  #product6 {
+    width: 33.33%;
+  }
+
+  .productdetail-container {
+    width: 155px;
+  }
+
+.productdetail-container p {
+  font-size: 0.7em;
+
+}
+
+  /* ---- PROMOTION CONTAINER AREA ------ */
+
+  #video-container {
+    padding-top: 10px;
+    width: 60%;
+  }
+
+  #promotion-text-container {
+    width: 40%;
+  }
+
+  #promotion-text {
+    padding: 15px;
+    height: 290px;
+  }
+
+  #promotion-text h2 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+
+  #promotion-text h3 {
+    font-size: 0.9em;
+  }
+  #promotion-text img {
+    bottom: 50px;
+    width: 200px;
+  }
+
+  /* ----LEGACY CONTAINER AREA ------ */
+
+  #legacy-qualities {
+    width: 80%;
+  }
+
+  #legacy1,
+  #legacy2 {
+    width: 50%;
+    padding: 0 20px;
+    margin-bottom: 0px;
+  }
+
+  #legacy1 img {
+    width: 110px;
+  }
+  #legacy2 img {
+    width: 150px;
+
+    margin: 20px 0 12px 0;
+  }
+
+  #legacy3 img {
+    width: 110px;
+  }
+
+  #legacy3 {
+    padding: 50px 130px 12px 130px;
+    margin-bottom: 0;
+  }
+
+  /* -----DISCOUNT AND COUPON AREA---- */
+
+  .promocontainer {
+    padding: 48px auto;
+    text-align: center;
+  }
+
+  .promocontainer img {
+    width: 86%;
+  }
+
+  #claiming-container {
+    padding: 0;
+  }
+
+  #claimdescription {
+    width: 50%;
+  }
+
+  #claiming-form {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  input[type="submit"]:hover {
+  background: #ffc525;
+  color: #000;
+  transform: scale(1.07);
+    cursor: pointer;
+  }
+
+  /* ---footer area ----*/
+  #payment-container img {
+    width: 300px;
+  }
+
+  #costumer-service-container {
+    width: 50%;
+    margin: 0;
+    padding-left: 175px;
+  }
+
+  #contact-container {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    padding-right: 175px;
+  }
+
+  /* ----- developer container ---- */
+
+  #developer-container {
+    margin-top: 10px;
+  }
 }
