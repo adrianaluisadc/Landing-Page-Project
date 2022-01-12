@@ -23,6 +23,35 @@
 }
 
 @media only screen and (min-width: 769px) {
+
+#span {
+  display: none;
+}
+
+#logo-container {
+  width: 25%;
+  text-align:left;
+}
+#nav-links {
+  display: inline-block;
+  width: 75%;
+  background:none;
+  font-size: .9em;
+  padding-top: 9px;
+  text-align: right;
+}
+
+#nav-links a {
+  display: inline;
+  margin: 10px .2em;
+}
+
+#hamburger-container {
+  padding: 0 15px;
+
+}
+/* ----HERO HEADER---- */
+
   #background {
     height: 530px;
   }
@@ -183,4 +212,9 @@
   #developer-container {
     margin-top: 10px;
   }
+}
+
+@media only screen and (min-width: 1280px){
+
+
 }
