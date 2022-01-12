@@ -213,3 +213,46 @@
     margin-top: 10px;
   }
 }
+
+@media only screen and (min-width: 1269px){
+
+  #nav-links {
+  font-size: 1.1em;
+
+  }
+
+  #background {
+    height: 530px;
+  }
+  #background::after {
+    height: 530px;
+  clip-path: polygon(100% 0, 53% 48%, 100% 100%);
+  }
+
+  #saletag-img {
+    left: 50%;
+
+  }
+
+  #header-text {
+    margin-left: 120px;
+  width: 400px;
+  top: 100px;
+
+  }
+
+#header-text h1 {
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#header-text span {
+  font-size: 3em;
+
+}
+
+#header-text p {
+  font-size: 2em;
+}
+}
