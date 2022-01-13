@@ -23,5 +23,25 @@
     --sixcaps:'Six Caps', sans-serif;
 }
 
+img[alt="Lipstation Website Logo"], 
+img[alt="New Year Big Sale Image"], 
+img[alt="Branded Lipstick"], 
+img[alt="Liquid Foundation"], 
+img[alt="Liquid Highlighter"], 
+img[alt="Facial Cleanser"], 
+img[alt="Facial Cream"], 
+img[alt="Eyeshadow Palette"], 
+img[alt="100% Authentic Products"], 
+img[alt="Free Nationwide"], 
+img[alt="Discount and Coupons"], 
+img[alt="Giveaways 2022 promo"],
+img[alt="New year promo 40% discount promo"]{
+    color: var(--dirtyWhite);
+}
+
+
+
+
+
 
 
