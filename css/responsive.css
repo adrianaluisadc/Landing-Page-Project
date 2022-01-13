@@ -23,34 +23,32 @@
 }
 
 @media only screen and (min-width: 769px) {
+  #span {
+    display: none;
+  }
 
-#span {
-  display: none;
-}
+  #logo-container {
+    width: 25%;
+    text-align: left;
+  }
+  #nav-links {
+    display: inline-block;
+    width: 75%;
+    background: none;
+    font-size: 0.9em;
+    padding-top: 9px;
+    text-align: right;
+  }
 
-#logo-container {
-  width: 25%;
-  text-align:left;
-}
-#nav-links {
-  display: inline-block;
-  width: 75%;
-  background:none;
-  font-size: .9em;
-  padding-top: 9px;
-  text-align: right;
-}
+  #nav-links a {
+    display: inline;
+    margin: 10px 0.2em;
+  }
 
-#nav-links a {
-  display: inline;
-  margin: 10px .2em;
-}
-
-#hamburger-container {
-  padding: 0 15px;
-
-}
-/* ----HERO HEADER---- */
+  #hamburger-container {
+    padding: 0 15px;
+  }
+  /* ----HERO HEADER---- */
 
   #background {
     height: 530px;
@@ -93,10 +91,9 @@
     width: 155px;
   }
 
-.productdetail-container p {
-  font-size: 0.7em;
-
-}
+  .productdetail-container p {
+    font-size: 0.7em;
+  }
 
   /* ---- PROMOTION CONTAINER AREA ------ */
 
@@ -183,9 +180,9 @@
   }
 
   input[type="submit"]:hover {
-  background: #ffc525;
-  color: #000;
-  transform: scale(1.07);
+    background: #ffc525;
+    color: #000;
+    transform: scale(1.07);
     cursor: pointer;
   }
 
@@ -214,11 +211,9 @@
   }
 }
 
-@media only screen and (min-width: 1269px){
-
+@media only screen and (min-width: 1269px) {
   #nav-links {
-  font-size: 1.1em;
-
+    font-size: 1.1em;
   }
 
   #background {
@@ -226,35 +221,32 @@
   }
   #background::after {
     height: 530px;
-  clip-path: polygon(100% 0, 53% 48%, 100% 100%);
+    clip-path: polygon(100% 0, 53% 48%, 100% 100%);
   }
 
   #saletag-img {
     left: 50%;
-
   }
 
   #header-text {
     margin-left: 120px;
-  width: 400px;
-  top: 100px;
-
+    width: 400px;
+    top: 100px;
   }
 
-#header-text h1 {
-  font-size: 5em;
-  text-align: center;
-  line-height: 1.6em;
-}
+  #header-text h1 {
+    font-size: 5em;
+    text-align: center;
+    line-height: 1.6em;
+  }
 
-#header-text span {
-  font-size: 3em;
+  #header-text span {
+    font-size: 3em;
+  }
 
-}
-
-#header-text p {
-  font-size: 2em;
-}
+  #header-text p {
+    font-size: 2em;
+  }
 
   /* -----BEST SELLING AREA -------- */
   #product1,
@@ -267,15 +259,33 @@
   }
 
   /* ---- PROMOTION CONTAINER AREA ------ */
+
+  #promotion-container {
+    padding-bottom: 0;
+  }
+
+  #video-container {
+    padding-top: 30px;
+  }
+
   #promotion-text h2 {
-    font-size: 1em;
+    font-size: 1.8em;
     line-height: 1em;
   }
 
   #promotion-text h3 {
-    font-size: 1.2em;
-
+    font-size: 1.4em;
+    margin-bottom: 0;
   }
 
+  #promotion-text img {
+    width: 400px;
+    top: 10px;
+  }
 
+  #promotion-text {
+    bottom: 0px;
+
+    height: 480px;
+  }
 }
