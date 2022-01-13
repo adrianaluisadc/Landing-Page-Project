@@ -288,4 +288,15 @@
 
     height: 480px;
   }
+
+  /* ----LEGACY CONTAINER AREA ------ */
+
+  #legacy1,
+  #legacy2,
+  #legacy3 {
+    width: 33.33%;
+  }
+  #legacy3 {
+    padding: 2px 20px 12px 20px;
+  }
 }
