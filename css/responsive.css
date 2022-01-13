@@ -299,4 +299,32 @@
   #legacy3 {
     padding: 2px 20px 12px 20px;
   }
+
+  /* -----DISCOUNT AND COUPON AREA---- */
+
+  .promocontainer img {
+    width: 40%;
+  }
+  #claiming-container {
+    margin: 0 auto;
+  }
+  #claimdescription {
+    width: 100%;
+    padding: 0 10px;
+  }
+  #claiming-form {
+    width: 100%;
+    margin: 0 auto;
+    padding-top:40px;
+  }
+
+  #claiming-form form {
+    width: 400px;
+    margin: 0 auto;
+   
+  }
+
+  #claimparagraph {
+    width: 320px;
+  }
 }
