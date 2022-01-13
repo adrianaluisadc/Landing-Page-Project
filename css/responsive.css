@@ -211,6 +211,8 @@
   }
 }
 
+/* ------------------ends here-------------------- */
+
 @media only screen and (min-width: 1269px) {
   #nav-links {
     font-size: 1.1em;
@@ -326,5 +328,53 @@
 
   #claimparagraph {
     width: 320px;
+  }
+
+  /* ----- footer area ---- */
+ 
+  #footer{
+    padding: 40px 48px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas: 
+    "logo costumer contact"
+    "payment costumer developer";
+    
+  }
+  #logo-footer-container {
+    grid-area: logo;
+    width: 1fr;
+  }
+
+  #logo-footer-container img {
+    width: 200px;
+  }
+  #payment-container {
+    grid-area: payment;
+    width: 1fr;
+    padding-top: 0px;
+
+  }
+
+  #costumer-service-container {
+    grid-area: costumer;
+    margin: 0 auto;
+    padding-left: 0;
+    width:1r;
+
+  }
+
+  
+  #contact-container {
+    padding-right: 0px;
+    grid-area: contact;
+    margin: 0 auto;
+    width:1r;
+
+  }
+  #developer-container {
+    grid-area: developer;
+    padding-top: 17px;
+
   }
 }
