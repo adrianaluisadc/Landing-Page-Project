@@ -267,6 +267,11 @@
   }
 
   /* ---- PROMOTION CONTAINER AREA ------ */
+  #promotion-text h2 {
+    font-size: 1em;
+    line-height: 1em;
+  }
+
   #promotion-text h3 {
     font-size: 1.2em;
 
